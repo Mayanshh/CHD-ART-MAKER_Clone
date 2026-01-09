@@ -215,7 +215,7 @@ const App = () => {
       <div ref={mainContentRef} className="opacity-0">
 
         {/* {SECTION 1} */}
-        <div className="hero-sec relative h-screen w-full bg-[url(https://www.chdartmaker.com/media/site/9f9f39e7ec-1756982584/rick-owens-moncler-1440x-q90.webp)] bg-center bg-no-repeat bg-cover z-10">
+        <div className="hero-sec relative h-screen w-full bg-[url(/images/mainBgImg.avif)] bg-center bg-no-repeat bg-cover z-10">
           <HeroFooter />
         </div>
 
@@ -273,16 +273,16 @@ const App = () => {
         <div id="projects-section" className="relative z-20 w-full h-[320vh] bg-white px-8 pt-[10vh]">
           <div className="flex flex-col items-center justify-start">
             <div className="flex justify-between items-start w-full h-[100vh] pt-[10vh]">
-              <CutoutParallax inset='0' src="https://www.chdartmaker.com/media/site/05c9f3ee90-1757062644/splinter-cover-1920x-q90.avif" title=" Katharina Grosse, Splinter, 2022 Paris " width="48vw" height="80vh" speed={15}/>
-              <CutoutParallax inset='0' src="https://www.chdartmaker.com/media/site/9f9f39e7ec-1756982584/rick-owens-moncler-1920x-q90.avif" title=" Rick Owens, Sleeping Pod, Art of Genius, Moncler, 2023 London" width="48%" height="40vh" speed={15}/>
+              <CutoutParallax inset='0' src="/images/parallaxImages/img1.avif" title=" Katharina Grosse, Splinter, 2022 Paris " width="48vw" height="80vh" speed={15}/>
+              <CutoutParallax inset='0' src="/images/parallaxImages/img2.avif" title=" Rick Owens, Sleeping Pod, Art of Genius, Moncler, 2023 London" width="48%" height="40vh" speed={15}/>
             </div>
             <div className="flex justify-between items-start w-full h-[100vh] pt-[10vh] pl-[7.5em] pr-[3.5em]">
-              <CutoutParallax inset='0' src="https://www.chdartmaker.com/media/site/bfe356c0db-1761663794/skihut-cover-1920x-q90.avif" title=" Rick Owens, Ski Hut, City of Genius, Moncler x Shanghaï, 2024 Shanghai " width="45vw" height="52vh" speed={15}/>
-              <CutoutParallax inset='0' src="https://www.chdartmaker.com/media/site/04945df43d-1757059021/jo-cover-1920x-q90.avif" title=" Paris 2024, Olympic and Paralympic Truce Mural, 2024 Paris " width="36.5vw" height="66vh" speed={15}/>
+              <CutoutParallax inset='0' src="/images/parallaxImages/img3.avif" title=" Rick Owens, Ski Hut, City of Genius, Moncler x Shanghaï, 2024 Shanghai " width="45vw" height="52vh" speed={15}/>
+              <CutoutParallax inset='0' src="/images/parallaxImages/img4.avif" title=" Paris 2024, Olympic and Paralympic Truce Mural, 2024 Paris " width="36.5vw" height="66vh" speed={15}/>
             </div>
             <div className="flex justify-between items-start w-full h-[100vh] pt-[10vh]">
-              <CutoutParallax inset='0' src="https://www.chdartmaker.com/media/site/7f5e86940a-1761667948/veryhungrygod-cover-1920x-q90.avif" title=" Subodh Gupta, Very Hungry God, 2006 Paris " width="45vw" height="50vh" speed={15}/>
-              <CutoutParallax inset='0' src="https://www.chdartmaker.com/media/site/1c42bdadd3-1757086192/snake-cover-1920x-q90.avif" title=" Agence R&Sie(n), Snake, 2002 Paris " width="48vw" height="80vh" speed={15}/>
+              <CutoutParallax inset='0' src="/images/parallaxImages/img5.avif" title=" Subodh Gupta, Very Hungry God, 2006 Paris " width="45vw" height="50vh" speed={15}/>
+              <CutoutParallax inset='0' src="/images/parallaxImages/img6.avif" title=" Agence R&Sie(n), Snake, 2002 Paris " width="48vw" height="80vh" speed={15}/>
             </div>
           </div>
         </div>
@@ -333,7 +333,7 @@ const App = () => {
             <div className='w-full h-[14vh] mt-20 px-8 flex flex-col items-start justify-between'>
                 <div className='h-[47px] w-[47px] bg-none rounded-full'>
                   <img 
-                 src="https://www.chdartmaker.com/media/site/ad2dc37030-1756389587/logo-epv.svg" 
+                 src="/images/epv-logo.svg" 
                  alt="EPV Logo" 
                  loading="eager" fetchpriority="high"
                  className='object-contain' 
@@ -364,7 +364,7 @@ const App = () => {
                 <div className="flex flex-row justify-between items-start w-full h-full py-[5vh] px-7">
                   <CutoutParallax
                     inset='0'
-                    src="https://www.chdartmaker.com/media/site/ac7a6b42d5-1765211514/epv2025-chd-cover-1920x-q90.avif"
+                    src="/images/projectImages/img1.avif"
                     title={`EPV Award Renewed — Excellence in French Craftsmanship - 2025`}
                     width="31.2vw"
                     height="55vh"
@@ -375,7 +375,7 @@ const App = () => {
                   />
                   <CutoutParallax
                     inset='0'
-                    src="https://www.chdartmaker.com/media/site/026d877cb1-1757002695/jo-hero-1920x-q90.avif"
+                    src="/images/projectImages/img2.avif"
                     title={`Paris 2024 — Olympic & Paralympic Truce Mural - Paris 2024`}
                     width="31.2vw"
                     height="38vh"
@@ -386,7 +386,7 @@ const App = () => {
                   />
                   <CutoutParallax
                     inset='0'
-                    src="https://www.chdartmaker.com/media/site/eb03a7de54-1757002194/skihut-hero2-1920x-q90.avif"
+                    src="/images/projectImages/img3.avif"
                     title={`City of Genius, \n Rick OWENS x MONCLER - Shanghai 2024`}
                     width="31.2vw"
                     height="45vh"
