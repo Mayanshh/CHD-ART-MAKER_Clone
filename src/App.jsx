@@ -320,7 +320,7 @@ const App = () => {
         <div ref={revealContainer} className="relative w-full h-screen overflow-hidden">
           
           {/* {SECTION 9} - Bottom Layer */}
-          <div id="contact-section" className='absolute inset-0 bg-yellow-500 flex flex-col items-start justify-start h-screen w-full bg-[url(https://www.chdartmaker.com/media/site/9f9f39e7ec-1756982584/rick-owens-moncler-1440x-q90.webp)] bg-center bg-no-repeat bg-cover z-0'>
+          <div id="contact-section" className='absolute inset-0 bg-black flex flex-col items-start justify-start h-screen w-full bg-[url(https://www.chdartmaker.com/media/site/9f9f39e7ec-1756982584/rick-owens-moncler-1440x-q90.webp)] bg-center bg-no-repeat bg-cover z-0'>
             <LocationMarquee speed={1.5} />
             <div className='w-full max-w-full h-[80px] flex items-center justify-between leading-[1.15] pt-[2.2em] px-8'>
               <div className='w-[30vw] h-full uppercase text-[1.67em] tracking-tighter'> 500 Rue Raymond Recouly <br /> 34070 Montpellier <br /> France</div> 
