@@ -259,7 +259,7 @@ const App = () => {
           </div>
 
           <div ref={imageDivRef} className='h-[24em] w-[37.5em] rounded-lg bg-red-200 relative bottom-[6.5em] overflow-hidden'>
-            <img ref={imgTagRef} src={images[0]} alt="scrolling selection" className='min-w-full min-h-full object-cover'/>
+            <img ref={imgTagRef} loading="eager" fetchpriority="high" src={images[0]} alt="scrolling selection" className='min-w-full min-h-full object-cover'/>
           </div>
 
           <div className='h-fit w-[10%] absolute bottom-[1.8em] right-[1.8em] text-black'>
@@ -335,6 +335,7 @@ const App = () => {
                   <img 
                  src="https://www.chdartmaker.com/media/site/ad2dc37030-1756389587/logo-epv.svg" 
                  alt="EPV Logo" 
+                 loading="eager" fetchpriority="high"
                  className='object-contain' 
                />    
                 </div>

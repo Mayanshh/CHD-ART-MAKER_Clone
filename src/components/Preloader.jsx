@@ -85,7 +85,7 @@ const Preloader = ({ isLoading }) => {
          <img 
            src={images[index]} 
            alt="preloader" 
-           className="w-full h-full object-cover grayscale"
+           className="w-full h-full object-cover"
          />
       </div>
 

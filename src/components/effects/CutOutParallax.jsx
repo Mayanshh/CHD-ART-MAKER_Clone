@@ -66,6 +66,7 @@ const CutoutParallax = ({
           }}
         >
           <img
+            loading="eager" fetchpriority="high"
             ref={imageRef}
             src={src}
             alt={title}

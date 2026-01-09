@@ -60,6 +60,7 @@ const ImageMarquee = ({
           >
             <img 
               src={src} 
+              loading="eager" fetchpriority="high"
               alt={`marquee-${index}`} 
               className="h-1/2"
             />
@@ -96,7 +97,7 @@ const MarqueeSection = () => {
       <ImageMarquee 
         images={sampleImages} 
         speed={0.6} 
-        reverse={true} 
+        reverse={true}
         gap="gap-4"
         rounded="rounded-lg"
       />
